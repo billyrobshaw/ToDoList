@@ -1,11 +1,11 @@
 {
   "include": ["src", "types"],
   "compilerOptions": {
-    "module": "esnext",
+    "module": "node16",
     "target": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "jsx": "preserve",
-    "baseUrl": "./",
+    //"baseUrl": "./",
     /* paths - import rewriting/resolving */
     "paths": {
       // If you configured any Snowpack aliases, add them here.
@@ -14,7 +14,7 @@
       // More info: https://www.snowpack.dev/guides/streaming-imports
     },
     "allowSyntheticDefaultImports": true,
-    "importsNotUsedAsValues": "error",
+    //"verbatimModuleSyntax": true,
     /* more strict checking for errors that per-file transpilers like `esbuild` would crash */
     "isolatedModules": true,
     /* noEmit - We only use TypeScript for type checking. */
@@ -27,3 +27,5 @@
     "useDefineForClassFields": true
   }
 }
+
+
