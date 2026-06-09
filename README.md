@@ -1,24 +1,5 @@
-# New Project
+This repository contains a simple project that I am developing while following a YouTube tutorial. My primary goal is to deepen my understanding of TypeScript and general development skills. I am using this Git repository to track my progress as I work through the material.
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+The code in this project is based on the YouTube video linked below. I do not claim ownership of the instructional content or the original implementation; this project is strictly for educational purposes as I follow along with the course:
 
-## Available Scripts
-
-### npm start
-
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+YouTube tutorial: https://www.youtube.com/watch?v=jBmrduvKl5w&t=130s
